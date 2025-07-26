@@ -1,21 +1,33 @@
-# Task 2 – Calculator App (Tkinter)
+# Task 2 – Simple Calculator (CLI) 🧮
 
 ## ✅ Description
-This project is a **clean and modern calculator GUI app** built using Python’s Tkinter library.  
-It performs basic arithmetic operations with a stylish interface.
 
-## 🖥️ Features
-- Addition, Subtraction, Multiplication, Division
-- Rounded button edges for a modern feel
-- Hover-friendly design and spacing for readability
-- Error handling for invalid operations
+This is a **command-line calculator** built in Python as part of my internship with **CODSOFT**.
 
-## 🛠️ Technologies Used
-- Python 3.x
-- Tkinter (built-in GUI library)
+It supports:
+- Addition
+- Subtraction
+- Multiplication
+- Division (with zero-division check)
+- Clean input handling
+- Looping until the user exits
+
+---
+
+## 🧠 Features
+
+- Menu-driven CLI interface
+- Supports float and integer inputs
+- Input validation for safe number entry
+- Division protected with zero-check
+- Continuous use until the user selects "Exit"
+
+---
 
 ## 🚀 How to Run
-1. Make sure Python is installed.
-2. Run the script using:
-   ```
-   python calculator_gui.py
+
+1. Save the code in a file named `calculator_cli.py`
+2. Open terminal/command prompt in that folder
+3. Run:
+```bash
+python calculator_cli.py
