@@ -43,10 +43,21 @@ def main():
     choice=input("would you like to play a game?(yes/no):")
     if choice.lower()=="yes":
         rps()
+    elif choice.lower()=="no":
+        print("exiting..")
+    else:
+        print("invalid \n")
 def choices():
     while True:
         print("1.play again\n2.display scores\n3.end game")
-        choice=int(input("enter your choice(1/2/3):"))
+        try:
+             choice=int(input("enter your choice(1/2/3):"))
+        except ValueError as e:
+             print("enter only numbers\n")
+             continue
+        
+    
+        
         if choice==1:
             rps()
             break
@@ -61,6 +72,8 @@ def choices():
             break
         else:
             print("invalid choice")
+
+
 main()
     
 
